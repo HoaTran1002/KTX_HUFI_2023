@@ -1,0 +1,103 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_LayoutAlumnus.cshtml";
+}
+<div class="row">
+    <div class="col-md-12 grid-margin">
+        <div class="row">
+            <div class="col-12 col-xl-8 mb-4 mb-xl-0">
+                <h3 class="font-weight-bold">Gia nhập </h3>
+            </div>
+            <div class="col-12 col-xl-4">
+                <!-- Empty  -->
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-xl-4">
+        <div class="join-card card card-tale">
+            <h2 class="join-card-title">Đăng ký sinh viên ký túc xá <i class="fa-light fa-memo"></i></h2>
+            <div class="join-card-title-info"><span><i class="fa-solid fa-check"></i></span> Đã đăng ký</div>
+            <a href="#" class="join-card-info"><i class="fa-solid fa-info"></i></a>
+        </div>
+    </div>
+    <div class="col-xl-4">
+        <div class="join-card">
+            <h2 class="join-card-title">Đăng ký thẻ thành viên ký túc xá <i class="fa-light fa-memo"></i></h2>
+            <a href="#" class="join-card-title-info-sigin">
+                <i class="fa-regular fa-plus"></i>
+                Đăng ký ngay
+            </a>
+        </div>
+    </div>
+    <div class="col-xl-4">
+        <div class="join-card card card-tale">
+            <h2 class="join-card-title">Đăng ký gửi xe hàng tháng <i class="fa-light fa-memo"></i></h2>
+            <div class="join-card-title-info"><span><i class="fa-solid fa-check"></i></span> Đã đăng ký</div>
+            <a href="#" class="join-card-info"><i class="fa-solid fa-info"></i></a>
+        </div>
+    </div>
+    <div class="col-xl-4">
+        <div class="join-card card card-tale">
+            <h2 class="join-card-title">Đăng ký bảo quản vật tư sinh viên <i class="fa-light fa-memo"></i></h2>
+            <div class="join-card-title-info"><span><i class="fa-solid fa-check"></i></span> Đã đăng ký</div>
+            <a href="#" class="join-card-info"><i class="fa-solid fa-info"></i></a>
+        </div>
+    </div>
+</div>
+@section rightSiteBar {
+    <nav class="sidebar sidebar-offcanvas" id="sidebar">
+        <ul class="nav">
+            <li class="nav-item">
+                <a class="nav-link" href="~/AlumnusHome/">
+                    <i class="icon-grid menu-icon"></i>
+                    <span class="menu-title">Trang chủ</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="~/AlumnusHome/">
+                    <i class="icon-head menu-icon"></i>
+                    <span class="menu-title">Hồ sơ sinh viên</span>
+                </a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link " href="~/AlumnusJoin/">
+                    <i class="fa-light fa-feather-pointed menu-icon"></i>
+                    <span class="menu-title">Gia nhập</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="~/AlumnusDownload/">
+                    <i class="icon-paper menu-icon"></i>
+                    <span class="menu-title">Biễu mẫu</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="pages/documentation/documentation.html">
+                    <i class="icon-paper menu-icon"></i>
+                    <span class="menu-title">Nội quy - quy định</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">
+                    <i class="fa-light fa-money-bills menu-icon"></i>
+                    <span class="menu-title">Thanh toán - Hóa đơn</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">
+                    <i clas="fa-light fa-flag menu-icon"></i>
+                    <span class="menu-title">Liên hệ</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">
+                    <i class="fa-sharp fa-solid fa-do-not-enter menu-icon"></i>
+                    <span class="menu-title">Vi phạm </span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+}
