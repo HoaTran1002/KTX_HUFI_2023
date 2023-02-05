@@ -1,0 +1,192 @@
+﻿
+@{
+    ViewData["Title"] = "Quản lý phòng";
+    Layout = "~/Views/Shared/_LayoutAlumnus.cshtml";
+}
+<div class="row">
+                        <div class="col-md-12 grid-margin">
+                            <div class="row">
+                                <div class="col-12 col-xl-8 mb-4 mb-xl-0">
+                                    <h3 class="font-weight-bold">Thông tin phòng</h3>
+                                    <!-- Nếu đã có phòng -->
+                                    <!-- <h6 class="font-weight-normal mb-0">Bạn đã đăng ký sinh viên ký túc xá tại<span class="text-primary">Phòng 102</span></h6> -->
+                                    <!-- Nếu chưa có phòng -->
+                                    <h6 class="font-weight-normal mb-0">Bạn chưa đăng ký phòng ký túc xá</h6>
+                                </div>
+                                <div class="col-12 col-xl-4">
+                                    <!-- Empty  -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 ">
+                            <div class="card tale-bg">
+                                <div class="ktx__room-info">
+                                    <!-- Khi phòng trống -->
+                                    <div class="row">
+                                        <div class="col-xl-6">
+                                            <div class="ktx__room-info-empty">
+                                                <div class="ktx__room-empty text-muted">
+                                                    <i class="fa-regular fa-plus "></i>
+                                                    <h5 class="ktx__room-empty-title text-muted">
+                                                        Bạn chưa đăng ký phòng ký túc xá nào
+                                                    </h5>
+                                                    <a href="#" class="ktx__room-empty-singin">Đăng ký ngay</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-6">
+                                            <ul class="ktx_empty-list-info">
+                                                <li class="ktx_empty-item-info">
+                                                    <i class="fa-thin fa-building"></i>
+                                                    Lầu : <span>Chưa có thông tin</span>
+                                                </li>
+                                                <li class="ktx_empty-item-info">
+                                                    <i class="fa-thin fa-house-chimney-blank"></i>
+                                                    Phòng : <span>Chưa có thông tin</span>
+                                                </li>
+                                                <li class="ktx_empty-item-info">
+                                                    <i class="fa-sharp fa-solid fa-people-roof"></i>
+                                                    Số sinh viên : <span>Chưa có thông tin</span>
+                                                </li>
+                                                <li class="ktx_empty-item-info">
+                                                    <i class="fa-light fa-genderless"></i>
+                                                    Vai trò : <span>Chưa có thông tin</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 grid-margin transparent">
+                            <div class="row">
+                                <div class="col-md-6 mb-4 stretch-card transparent">
+                                    <div class="card card-tale">
+                                        <div class="card-body">
+                                            <p class="mb-4">
+                                                Hóa đơn điện
+                                                <i class="fa-solid fa-bolt"></i>
+                                            </p>
+                                            <p class="fs-30 mb-2"> <span>250.000</span> VND</p>
+                                            <p>Tình trạng: Chưa thanh toán</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-4 stretch-card transparent">
+                                    <div class="card card-dark-blue">
+                                        <div class="card-body">
+                                            <p class="mb-4">
+                                                Hóa đơn nước
+                                                <i class="fa-solid fa-droplet"></i>
+                                            </p>
+                                            <p class="fs-30 mb-2"> <span>150.000</span> VND</p>
+                                            <p>Tình trạng: Đã thanh toán</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 mb-4 mb-lg-0 stretch-card transparent">
+                                    <div class="card card-light-blue">
+                                        <div class="card-body">
+                                            <p class="mb-4">
+                                                Hóa đơn rác
+                                                <i class="fa-solid fa-trash-can"></i>
+                                            </p>
+                                            <p class="fs-30 mb-2"> <span>50.000</span> VND</p>
+                                            <p>Tình trạng: Đã thanh toán</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 stretch-card transparent">
+                                    <div class="card card-light-danger">
+                                        <div class="card-body">
+                                            <p class="mb-4">
+                                                Hóa đơn phòng
+                                                <i class="fa-solid fa-wallet"></i>
+                                            </p>
+                                            <p class="fs-30 mb-2"> <span>350.000</span> VND</p>
+                                            <p>Tình trạng: Chưa thanh toán</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-7 grid-margin stretch-card">
+                            <div class="card">
+                                <div class="card-body">
+                                    <p class="card-title mb-0">Danh sách sinh viên <span>Phòng 406</span></p>
+                                    <div class="table-responsive">
+                                        <table class="table table-striped table-borderless">
+                                            <thead>
+                                                <tr>
+                                                    <th>Tên sinh viên</th>
+                                                    <th>Khóa</th>
+                                                    <th>MSSV</th>
+                                                    <th>Tình trạng</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td class="font-weight-bold">Nguyễn Văn A</td>
+                                                    <td class="font-weight-bold">11DHTH11</td>
+                                                    <td class="font-weight-bold">2001207266</td>
+                                                    <td class="font-weight-medium">Đang cư trú</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="font-weight-bold">Nguyễn Văn B</td>
+                                                    <td class="font-weight-bold">11DHTH11</td>
+                                                    <td class="font-weight-bold">2001207266</td>
+                                                    <td class="font-weight-medium">Đang cư trú</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="font-weight-bold">Nguyễn Văn C</td>
+                                                    <td class="font-weight-bold">11DHTH11</td>
+                                                    <td class="font-weight-bold">2001207266</td>
+                                                    <td class="font-weight-medium">Đang cư trú</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="font-weight-bold">Nguyễn Văn A</td>
+                                                    <td class="font-weight-bold">11DHTH11</td>
+                                                    <td class="font-weight-bold">2001207266</td>
+                                                    <td class="font-weight-medium">Đang cư trú</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-5 col-xl-5 grid-margin">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="card card-light-blue">
+                                        <div class="card-body ">
+                                            <p class="mb-4 KTX_card-body-title">
+                                                Đăng ký gửi xe theo tháng
+                                                <i class="fa-light fa-motorcycle"></i>
+                                            </p>
+                                            <a class="KTX_card-body-link">Đăng ký ngay</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="card card-light-blue">
+                                        <div class="card-body ">
+                                            <p class="mb-4 KTX_card-body-title">
+                                                Đăng ký thẻ thành viên câu lạc bộ ký túc xá
+                                                <i class="fa-light fa-buildings"></i>
+                                            </p>
+                                            <a class="KTX_card-body-link">Đăng ký ngay</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>

@@ -1,0 +1,324 @@
+.card.tale-bg{
+    overflow:hidden ;
+}
+.ktx__room-info{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+}
+.ktx__room-empty{
+    font-family: nunito;
+    border: 3px solid rgb(158, 158, 158);
+    width: 230px;
+    height: 230px;
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+    border-radius: 10px;
+    flex-direction: column;
+    padding: 10px;
+}
+.ktx__room-empty-singin{
+    display: inline-block;
+    padding: 8px 10px;
+    border-radius: 10px;
+    background-color: #4B49AC;
+    color: #fff;
+    text-decoration: none;
+    transition: all linear 0.3s;
+}
+.ktx__room-empty-singin:hover {
+    background-color: #4b49accf;
+    color: #fff;
+    text-decoration: none;
+
+}
+.ktx__room-empty i{
+    font-size: 55px;
+    color: rgb(136, 136, 136);
+}
+.ktx__room-empty-title{
+    font-size: 15px;
+    text-align: center;
+    line-height: 20px;
+    margin: 10px;
+}
+.ktx__room-info-empty{
+    height: 230px;
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+    margin: 50px 0;
+}
+.ktx_empty-list-info{
+    list-style: none;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;  
+    flex-direction: column;
+    margin: 0;
+}
+.ktx_empty-item-info{
+    margin: 10px 0;
+    padding: 9px 15px;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+    display: block;
+    font-size: 17px;
+    width: 255px;
+    font-weight: 600;
+    color: rgb(138, 138, 138);
+}
+
+.KTX_card-body-link{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    padding: 5px 15px;
+    border-radius: 9px;
+    background-color: #fff;
+    color: #4B49AC;
+    transition: all linear 0.3s;
+    cursor: pointer;
+}
+
+.KTX_card-body-link:hover{
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.873);
+}
+.KTX_card-body-title{
+    font-size: 17px;
+    line-height: 32px;
+    font-weight: bold;
+}
+
+/* profile */
+.profile_card{
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px 15px;
+}
+.profile_card-img{
+    width: 100%;
+    display: flex;
+    align-items: center;  
+    flex-direction: column;
+    position: relative;
+}
+.profile_card-img::before{
+    content: "";
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    border: 4px #4B49AC solid;
+    border-radius: 50%;
+}
+.profile_card-img img{
+    width: 80%;
+    border-radius: 50%;
+}
+.profile_card-img-btn-change{
+    position: absolute;
+    border: none;
+    width: 35px;
+    height: 35px;
+    font-size: 18px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+    bottom: 0;
+    right: 0;
+    background-color: #4B49AC;
+    color: #fff;
+}
+.profile_card-content-list{
+    margin-top: 20px;
+}
+.profile_card-content-item{
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin: 15px 0;
+}
+.profile_card-content-item-content{
+    margin: 0;
+    font-size: 16px;
+}
+.profile_card-content-item-title{
+    font-size: 18px;
+    color: #4B49AC;
+    font-weight: bold;
+}
+.KTX-form-text-field {
+    position: relative;
+    margin-bottom: 30px;    
+}
+
+.KTX-form-text-field label {
+    display: inline-block;
+    font-weight: 600;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 10px;
+    background-color: #F5F7FF;
+    padding: 1px 5px;
+    margin-left: 10px;
+    font-size: 16px;
+    transform: translateY(-50%);
+    color: #4B49AC;
+}
+
+.KTX-form-text-field input {
+    padding: 15px;
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    border: 2px solid #4B49AC;
+    border-radius: 4px;
+    background-color: transparent;
+    color: #4B49AC;
+    outline: none;
+    
+}
+.KTX-form-text-field-submit,
+.KTX-form-text-field-cancel{
+    font-size: 18px;
+    border-radius: 8px;
+    padding: 5px 10px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.KTX-form-text-field-submit{
+    border: none;
+    background-color: #4B49AC;
+    color: #fff;
+    font-weight: 600;
+}
+.KTX-form-text-field-cancel{
+    background-color: #9c9c9c;
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+}
+.KTX-form-text-field-cancel:hover{
+    color: #fff;
+    text-decoration: none;
+}
+
+.join-card{
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    position: relative;
+    height: 170px;
+
+}
+.join-card-title{
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 20px;
+    height: 80px;
+}
+.join-card-title-info{
+    font-size: 25px;
+    text-align: right;
+    padding-right: 20px;
+}
+.join-card-title-info span{
+    width: 40px;
+    height: 40px;
+    align-items: center;  
+    justify-content: center;
+    color: #4B49AC;
+    display: inline-flex;
+    background-color: #fff;
+    border-radius: 50%;
+}
+.join-card-title-info span i{
+    font-size: 20px;   
+    color: rgb(0, 184, 0); 
+}
+.join-card-title-info-sigin{
+    display: inline-block   ;
+    font-size: 20px;
+    text-decoration: none;
+    color: #9c9c9c;
+    background-color: #e8e8e8;
+    padding:6px 15px;
+    font-weight: 500;
+    border-radius: 20px;
+    transition: all linear 0.3s;
+}
+.join-card-title-info-sigin:hover{
+    background-color: #7da0fa;
+    color: #fff;
+    text-decoration: none;
+}
+.join-card-info{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;  
+    justify-content: center;
+    position: absolute;
+    bottom: 15px;
+    left: 20px;
+    background-color: #fff;
+}
+.join-card-info i{
+    color: #7da0fa;
+    font-size: 20px;
+}
+
+/* download page */
+.down_file-card{
+    background-color:#fff ;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding:10px 10px 40px 10px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+.down_file-card-img{
+    width: 100%;
+}
+.down_file-card-img img{
+    width: 100%;
+}
+
+.down_file-card-title{
+    font-size: 24px;
+    font-weight: 600;
+    color: #646464  ;
+}
+.down_file-card-download{
+    position: absolute;
+    display: block;
+    background-color: #4B49AC;
+    color: #fff;
+    font-size: 20px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 5px 0;
+    text-align: center;
+    text-decoration: none;
+    transition: all linear 0.3s;
+}
+.down_file-card-download i{
+    padding: 0 10px;
+}
+.down_file-card-download:hover{
+    background-color: #4b49acc1;
+    color: #fff;
+    text-decoration: none;
+
+}
